@@ -1,0 +1,11 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"C1","1uF","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",58.7500,-85.0000,0.0000,top
+"C2","4.7uF","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",58.7625,-93.0000,0.0000,top
+"C3","4.7uF","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",58.7625,-96.0000,0.0000,top
+"C4","100nF","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",58.7500,-99.0000,0.0000,top
+"C5","100nF","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",71.0000,-59.0000,180.0000,top
+"D1","WS2812B","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",71.0000,-64.0000,180.0000,top
+"R1","10K","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",83.2500,-90.3500,0.0000,top
+"R2","39R","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",83.2500,-95.7000,180.0000,top
+"SW9","SW_SPST","SW_SPDT_PCM12",89.0000,-42.1300,180.0000,bottom
+"U2","TPS76318","SOT-23-5",58.7500,-89.0000,0.0000,top
