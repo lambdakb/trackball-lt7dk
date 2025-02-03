@@ -7,12 +7,14 @@
 
 ## PCB
 
-|    Front     |    Back     |
-| :----------: | :---------: |
-| ![PCB Front] | ![PCB Back] |
+|             Front             |            Back             |
+| :---------------------------: | :-------------------------: |
+| [![PCB Front]][PCB Front PNG] | [![PCB Back]][PCB Back PNG] |
 
 [PCB Front]: output/img/lt7dk-pcb-top.svg
+[PCB Front PNG]: output/img/lt7dk-pcb-top.png
 [PCB Back]: output/img/lt7dk-pcb-bottom.svg
+[PCB Back PNG]: output/img/lt7dk-pcb-bottom.png
 
 The PCB has been designed in [KiCad EDA 8.0](https://www.kicad.org/) using the [`kicad-lkbd`](https://github.com/lambdakb/kicad-lkbd) libraries and [`kbplacer`](https://github.com/adamws/kicad-kbplacer).
 
@@ -40,10 +42,9 @@ If you are a retailer or business interested in selling this design or related p
 ### Inspiration
 
 - [aki27kbd trackball_module](https://github.com/aki27kbd/trackball_module)
-- [Ploopy Nano Trackball](https://ploopy.co/nano-trackball/) ([source](https://github.com/ploopyco/nano-trackball), PCB design can be viewed using [Altium 365 Viewer](https://www.altium365.com/viewer/))
-- [Ploopy Adept Trackball](https://ploopy.co/adept-trackball/) ([source](https://github.com/ploopyco/adept-trackball), PCB design can be viewed using [Altium 365 Viewer](https://www.altium365.com/viewer/))
-- [DIY trackball with scroll ring](https://github.com/jfedor2/scroll-ring-trackball)
-- [DIY two-ball trackball](https://github.com/jfedor2/two-ball-trackball)
+- [Ploopy Nano Trackball](https://ploopy.co/nano-trackball/) ([source](https://github.com/ploopyco/nano-trackball))
+- [Ploopy Adept Trackball](https://ploopy.co/adept-trackball/) ([source](https://github.com/ploopyco/adept-trackball))
+- [jfedor2 DIY trackball with scroll ring](https://github.com/jfedor2/scroll-ring-trackball)
 - [The Orb trackball](https://github.com/dpapavas/orb-trackball)
 - [brickbots aball](https://github.com/brickbots/aball)
 
@@ -52,15 +53,5 @@ If you are a retailer or business interested in selling this design or related p
 - [jfedor2 PMW3360 Breakout Board](https://github.com/jfedor2/pmw3360-breakout)
 - [jfedor2 PMW3360+RP2040](https://github.com/jfedor2/rp2040-pmw3360)
 - [asav.dev PMW3360 Module](https://asav.dev/pmw3360/)
-- [Bastardkb PMW3360-PCB](https://github.com/Bastardkb/PMW3360-pcb)
-- [Bastardkb Chabrydris PMW3360 Sensor PCB](https://github.com/Bastardkb/charybdis-pmw-3360-sensor-pcb)
 - [SideraKB PMW3360 PCB](https://github.com/siderakb/pmw3360-pcb)
-- [protieusz OmegaSupreme](https://github.com/protieusz/OmegaSupreme)
 - [protieusz Omega-Petit](https://github.com/protieusz/Omega-Petit)
-- [Ariamelon Kiwano](https://github.com/Ariamelon/Kiwano)
-
-### Documentation
-
-- [PMW3360 sensor datasheet](https://d3s5r33r268y59.cloudfront.net/datasheets/9604/2017-05-07-18-19-11/PMS0058-PMW3360DM-T2QU-DS-R1.50-26092016._20161202173741.pdf)
-- [D2FC-F-7N microswitch specs & datasheet](https://www.mouser.fr/ProductDetail/Omron-Electronics/D2FC-F-7N100M?qs=iLKYxzqNS757BGMJVD2IKg%3D%3D)
-- [Trackball bearing comparison](https://kbd.news/Trackball-bearing-comparison-1757.html)

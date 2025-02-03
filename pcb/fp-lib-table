@@ -5,4 +5,6 @@
   (lib (name "LKBD_MicroSwitch")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-lkbd/footprints/LKBD_MicroSwitch.pretty")(options "")(descr ""))
   (lib (name "LKBD_OLED")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-lkbd/footprints/LKBD_OLED.pretty")(options "")(descr ""))
   (lib (name "LKBD_OpticalSensor")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-lkbd/footprints/LKBD_OpticalSensor.pretty")(options "")(descr ""))
+  (lib (name "Panelization")(type "KiCad")(uri "${KIPRJMOD}/libraries/Panelization.pretty")(options "")(descr ""))
+  (lib (name "MouseBite")(type "KiCad")(uri "${KIPRJMOD}/libraries/MouseBite.pretty")(options "")(descr ""))
 )

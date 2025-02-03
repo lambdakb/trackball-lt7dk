@@ -552,6 +552,30 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPosOffset",
+          "name": "JLCPosOffset",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCRotOffset",
+          "name": "JLCRotOffset",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLC",
+          "name": "JLC",
+          "show": true
         }
       ],
       "filter_string": "",
