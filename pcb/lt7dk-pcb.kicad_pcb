@@ -8,10 +8,11 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "PWM3360 Trackball Kit")
-		(date "2024-12-09")
-		(rev "1")
-		(company "UserCTL.xyz")
+		(title "LT7DK")
+		(date "2025-02-04")
+		(rev "v1.00")
+		(company "LambdaKB.dev")
+		(comment 1 "https://lambdakb.dev/devices/lt7dk/")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -181,7 +182,7 @@
 		(uuid "25ff3b49-cfe1-4ace-8ac5-1738d9c2117d")
 		(at 98 93 180)
 		(property "Reference" "MouseBite_2mm_Slot"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bd05d739-a44a-4ccf-a37c-4d9f872fda20")
@@ -193,7 +194,7 @@
 			)
 		)
 		(property "Value" "VAL**"
-			(at 0 2.1 360)
+			(at 0 2.1 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4700af6f-9e5f-450b-9adf-6bc9a995aac8")
@@ -205,7 +206,7 @@
 			)
 		)
 		(property "Footprint" "MouseBite:MouseBite_2mm_Slot"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c3aab8e4-0afa-46ed-bd63-465ab56de4f6")
@@ -217,7 +218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bcb6163b-764f-4d0f-aae1-c8eca7a2379a")
@@ -229,7 +230,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "93d2d736-7aab-4f36-8fa6-800da6c4f037")
@@ -5785,7 +5786,7 @@
 		(uuid "a3efd5f1-664f-450d-92a3-349941e01a87")
 		(at 66 110)
 		(property "Reference" "MouseBite_2mm_Slot"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "714da2ac-a474-4723-aae3-8f51ed83e6d4")
@@ -5797,7 +5798,7 @@
 			)
 		)
 		(property "Value" "VAL**"
-			(at 0 2.1 360)
+			(at 0 2.1 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f96acbab-80e2-4f92-8518-ce352ec17703")
@@ -5809,7 +5810,7 @@
 			)
 		)
 		(property "Footprint" "MouseBite:MouseBite_2mm_Slot"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1815c4c4-8c44-4251-9b3d-cae60481f83d")
@@ -5821,7 +5822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8af8d04f-eb1d-4ae2-8338-819b49b1f2c0")
@@ -5833,7 +5834,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cd4c59db-bac3-418d-8c58-3304b8331c49")
@@ -9700,7 +9701,7 @@
 			(uuid "2c922c90-5084-4ec7-9911-c6da535d86b4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.27 360)
+			(at 0 -1.27 0)
 			(layer "B.Fab")
 			(uuid "ffb43518-746f-4c14-8658-c65e7d6851da")
 			(effects
@@ -9972,7 +9973,7 @@
 			(uuid "3911c64e-0608-4bdf-a7f6-4c0d80783de3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.27 360)
+			(at 0 -1.27 0)
 			(layer "B.Fab")
 			(uuid "336a8071-d322-4391-9dd5-6f333d0a73d9")
 			(effects
@@ -10244,7 +10245,7 @@
 			(uuid "a6a232c6-103f-4030-bdef-19d13c998316")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.27 360)
+			(at 0 -1.27 0)
 			(layer "B.Fab")
 			(uuid "bb566b2f-dc15-4648-9aed-4afdc9f26b8e")
 			(effects
@@ -10966,7 +10967,7 @@
 			(uuid "bdb610f0-439f-4175-9960-a13651116f49")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.27 360)
+			(at 0 -1.27 0)
 			(layer "B.Fab")
 			(uuid "669fe9ac-8fed-44eb-8168-208272653091")
 			(effects
@@ -15513,130 +15514,10 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "Board overall dimensions: "
-		(at 14 178.629 0)
+	(gr_text "2"
+		(at 46.657143 174.744 0)
 		(layer "F.Fab")
-		(uuid "00397072-5d0f-417e-84e7-04de6aec060f")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Castellated pads: "
-		(at 14 190.5 0)
-		(layer "F.Fab")
-		(uuid "03a6c7d4-2bae-4bc1-8927-ce3448f09fd6")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Min track/spacing: "
-		(at 14 182.586 0)
-		(layer "F.Fab")
-		(uuid "1e50947c-9fc7-4223-9cd9-1231ee5a872a")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Min hole diameter: "
-		(at 80.814281 182.586 0)
-		(layer "F.Fab")
-		(uuid "2af2b2e2-a44a-485b-85ab-3a75be3cd4ee")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "No"
-		(at 46.657143 194.457 0)
-		(layer "F.Fab")
-		(uuid "306679fc-a7d1-4b52-bcff-bef4b3b4d2f1")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0.3000 mm"
-		(at 105.757138 182.586 0)
-		(layer "F.Fab")
-		(uuid "4261aece-f2f8-4586-bf9e-571d2e34b5d4")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "No"
-		(at 105.757138 186.543 0)
-		(layer "F.Fab")
-		(uuid "4d5620d1-2bdc-4fb9-8627-8c0d25fed9a3")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "No"
-		(at 105.757138 190.5 0)
-		(layer "F.Fab")
-		(uuid "58413ed2-91df-42bb-9fc8-548d0bef5cac")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "HAL lead-free"
-		(at 46.657143 186.543 0)
-		(layer "F.Fab")
-		(uuid "58a8a338-774d-48d0-90c7-bf79a79d2ec1")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 80.814281 178.629 0)
-		(layer "F.Fab")
-		(uuid "6831b7e5-b2cc-46a9-a04f-6655beaba4cb")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Edge card connectors: "
-		(at 14 194.457 0)
-		(layer "F.Fab")
-		(uuid "68ca08d9-d68a-400c-a4be-a56aab669cb2")
+		(uuid "0990cac2-5b07-4c3e-8cda-1c235d1bf820")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -15646,9 +15527,9 @@
 		)
 	)
 	(gr_text "BOARD CHARACTERISTICS"
-		(at 13.25 169.178 0)
+		(at 13.25 169.25 0)
 		(layer "F.Fab")
-		(uuid "69e607d2-e597-4515-8a73-5153b7846baf")
+		(uuid "0a7b590c-467e-4ab0-8be2-f06c012ef71f")
 		(effects
 			(font
 				(size 2 2)
@@ -15657,58 +15538,22 @@
 			(justify left top)
 		)
 	)
+	(gr_text "Edge card connectors: "
+		(at 14 194.529 0)
+		(layer "F.Fab")
+		(uuid "14a5e281-5aec-4e5c-b606-5662357b3e0a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
 	(gr_text ""
-		(at 105.757138 178.629 0)
+		(at 80.814281 178.701 0)
 		(layer "F.Fab")
-		(uuid "72ab29cd-a4e6-44f4-8765-b335dca5932b")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0.1270 mm / 0.1270 mm"
-		(at 46.657143 182.586 0)
-		(layer "F.Fab")
-		(uuid "79a0b2fe-266e-4438-9f16-056fb3702b66")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Copper Finish: "
-		(at 14 186.543 0)
-		(layer "F.Fab")
-		(uuid "7e188eef-6ce9-4c83-9138-f6bd2c758aee")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Board Thickness: "
-		(at 80.814281 174.672 0)
-		(layer "F.Fab")
-		(uuid "8558df77-2e83-4dcd-8055-895f3721b50e")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Impedance Control: "
-		(at 80.814281 186.543 0)
-		(layer "F.Fab")
-		(uuid "9b0ca205-9fff-4ac2-8773-cb6a571cb70f")
+		(uuid "29cbd3ce-7a7a-4d34-953e-92d30487f759")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -15718,21 +15563,9 @@
 		)
 	)
 	(gr_text "1.6000 mm"
-		(at 105.757138 174.672 0)
+		(at 105.757138 174.744 0)
 		(layer "F.Fab")
-		(uuid "9f1a18f9-2566-4bc6-bf0b-fc6a02390122")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "62.0000 mm x 82.0000 mm"
-		(at 46.657143 178.629 0)
-		(layer "F.Fab")
-		(uuid "bb402f57-22a8-4146-b033-ee01da6296a7")
+		(uuid "37637103-a00a-46ed-adc6-22c83c44a26c")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -15742,9 +15575,9 @@
 		)
 	)
 	(gr_text "Copper Layer Count: "
-		(at 14 174.672 0)
+		(at 14 174.744 0)
 		(layer "F.Fab")
-		(uuid "ecfa7fcb-a9f6-46d6-8d48-2f1da82f5d78")
+		(uuid "469b92eb-cd9e-4f29-9491-3e9beba45f6c")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -15753,10 +15586,10 @@
 			(justify left top)
 		)
 	)
-	(gr_text "Plated Board Edge: "
-		(at 80.814281 190.5 0)
+	(gr_text "0.3000 mm"
+		(at 105.757138 182.658 0)
 		(layer "F.Fab")
-		(uuid "efb5a0ca-99d8-4e7a-a8c6-cd0214f4faa3")
+		(uuid "49b242d6-a2a0-4617-87f4-12abff7b5696")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -15765,10 +15598,70 @@
 			(justify left top)
 		)
 	)
-	(gr_text "2"
-		(at 46.657143 174.672 0)
+	(gr_text "0.0000 mm / 0.0000 mm"
+		(at 46.657143 182.658 0)
 		(layer "F.Fab")
-		(uuid "f27776c0-0e8c-4dfc-9e21-9da194e0b0d3")
+		(uuid "4ed5844a-467c-4554-90c3-211a5b7e9b40")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Castellated pads: "
+		(at 14 190.572 0)
+		(layer "F.Fab")
+		(uuid "562034f4-c8f8-471a-aa95-218e8d163128")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text ""
+		(at 105.757138 178.701 0)
+		(layer "F.Fab")
+		(uuid "6e2e64ec-4aaa-49c2-bf97-94cd9d1c4261")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Board Thickness: "
+		(at 80.814281 174.744 0)
+		(layer "F.Fab")
+		(uuid "79ab6484-a22f-4840-9ad3-ab01fab413d4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Copper Finish: "
+		(at 14 186.615 0)
+		(layer "F.Fab")
+		(uuid "7bdcbc9c-40b8-4a97-899d-5f8f82ea10b2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "62.0000 mm x 84.0000 mm"
+		(at 46.657143 178.701 0)
+		(layer "F.Fab")
+		(uuid "85341b6f-e26c-4d6c-886d-7fa90684affa")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -15778,9 +15671,117 @@
 		)
 	)
 	(gr_text "No"
-		(at 46.657143 190.5 0)
+		(at 46.657143 190.572 0)
 		(layer "F.Fab")
-		(uuid "f40067ba-60d4-4734-b98d-cc867baeca9b")
+		(uuid "8e0161e7-3a98-42ce-96ce-6af8ec615fdc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Plated Board Edge: "
+		(at 80.814281 190.572 0)
+		(layer "F.Fab")
+		(uuid "94f71f38-2321-474f-9931-5312b5a0f242")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "HAL lead-free"
+		(at 46.657143 186.615 0)
+		(layer "F.Fab")
+		(uuid "ad0beb04-d4d9-47b2-a07c-fd3fce8d02e6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Min track/spacing: "
+		(at 14 182.658 0)
+		(layer "F.Fab")
+		(uuid "b43ab33e-9dd3-4f98-a6b9-67033356e3de")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "No"
+		(at 46.657143 194.529 0)
+		(layer "F.Fab")
+		(uuid "c2baaaf1-c3cf-419d-9c75-d7440ebf69b5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "No"
+		(at 105.757138 186.615 0)
+		(layer "F.Fab")
+		(uuid "c34895df-7124-4973-8209-e227e50e9a39")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Board overall dimensions: "
+		(at 14 178.701 0)
+		(layer "F.Fab")
+		(uuid "cdaf6818-b9ae-4b33-9865-dd0950bd8fdb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Min hole diameter: "
+		(at 80.814281 182.658 0)
+		(layer "F.Fab")
+		(uuid "e39ebaba-6e4c-4810-9e3b-8b8a02d0dab1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Impedance Control: "
+		(at 80.814281 186.615 0)
+		(layer "F.Fab")
+		(uuid "e3f17aa3-f6d3-47b4-b633-95b94579ca36")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "No"
+		(at 105.757138 190.572 0)
+		(layer "F.Fab")
+		(uuid "ea534039-4ea8-4fb2-867f-94c93a53b664")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -20415,19 +20416,19 @@
 		(members "7c629666-5fa3-4dfa-8b72-0594ca164906" "b5fcda9d-50ad-4183-8b55-b0709af41ffa")
 	)
 	(group "group-boardCharacteristics"
-		(uuid "cad8f7b8-6e75-4558-a70b-5dcfcb6c30d4")
-		(members "00397072-5d0f-417e-84e7-04de6aec060f" "03a6c7d4-2bae-4bc1-8927-ce3448f09fd6"
-			"1e50947c-9fc7-4223-9cd9-1231ee5a872a" "2af2b2e2-a44a-485b-85ab-3a75be3cd4ee"
-			"306679fc-a7d1-4b52-bcff-bef4b3b4d2f1" "4261aece-f2f8-4586-bf9e-571d2e34b5d4"
-			"4d5620d1-2bdc-4fb9-8627-8c0d25fed9a3" "58413ed2-91df-42bb-9fc8-548d0bef5cac"
-			"58a8a338-774d-48d0-90c7-bf79a79d2ec1" "6831b7e5-b2cc-46a9-a04f-6655beaba4cb"
-			"68ca08d9-d68a-400c-a4be-a56aab669cb2" "69e607d2-e597-4515-8a73-5153b7846baf"
-			"72ab29cd-a4e6-44f4-8765-b335dca5932b" "79a0b2fe-266e-4438-9f16-056fb3702b66"
-			"7e188eef-6ce9-4c83-9138-f6bd2c758aee" "8558df77-2e83-4dcd-8055-895f3721b50e"
-			"9b0ca205-9fff-4ac2-8773-cb6a571cb70f" "9f1a18f9-2566-4bc6-bf0b-fc6a02390122"
-			"bb402f57-22a8-4146-b033-ee01da6296a7" "ecfa7fcb-a9f6-46d6-8d48-2f1da82f5d78"
-			"efb5a0ca-99d8-4e7a-a8c6-cd0214f4faa3" "f27776c0-0e8c-4dfc-9e21-9da194e0b0d3"
-			"f40067ba-60d4-4734-b98d-cc867baeca9b"
+		(uuid "e690cdb5-2bf8-44e4-b03d-21f748c10352")
+		(members "0990cac2-5b07-4c3e-8cda-1c235d1bf820" "0a7b590c-467e-4ab0-8be2-f06c012ef71f"
+			"14a5e281-5aec-4e5c-b606-5662357b3e0a" "29cbd3ce-7a7a-4d34-953e-92d30487f759"
+			"37637103-a00a-46ed-adc6-22c83c44a26c" "469b92eb-cd9e-4f29-9491-3e9beba45f6c"
+			"49b242d6-a2a0-4617-87f4-12abff7b5696" "4ed5844a-467c-4554-90c3-211a5b7e9b40"
+			"562034f4-c8f8-471a-aa95-218e8d163128" "6e2e64ec-4aaa-49c2-bf97-94cd9d1c4261"
+			"79ab6484-a22f-4840-9ad3-ab01fab413d4" "7bdcbc9c-40b8-4a97-899d-5f8f82ea10b2"
+			"85341b6f-e26c-4d6c-886d-7fa90684affa" "8e0161e7-3a98-42ce-96ce-6af8ec615fdc"
+			"94f71f38-2321-474f-9931-5312b5a0f242" "ad0beb04-d4d9-47b2-a07c-fd3fce8d02e6"
+			"b43ab33e-9dd3-4f98-a6b9-67033356e3de" "c2baaaf1-c3cf-419d-9c75-d7440ebf69b5"
+			"c34895df-7124-4973-8209-e227e50e9a39" "cdaf6818-b9ae-4b33-9865-dd0950bd8fdb"
+			"e39ebaba-6e4c-4810-9e3b-8b8a02d0dab1" "e3f17aa3-f6d3-47b4-b633-95b94579ca36"
+			"ea534039-4ea8-4fb2-867f-94c93a53b664"
 		)
 	)
 )

@@ -16,26 +16,15 @@
 [PCB Back]: output/img/lt7dk-pcb-bottom.svg
 [PCB Back PNG]: output/img/lt7dk-pcb-bottom.png
 
-The PCB has been designed in [KiCad EDA 8.0](https://www.kicad.org/) using the [`kicad-lkbd`](https://github.com/lambdakb/kicad-lkbd) libraries and [`kbplacer`](https://github.com/adamws/kicad-kbplacer).
+The PCB has been designed in [KiCad EDA 8.0](https://www.kicad.org/) using the [`kicad-lkbd`](https://github.com/lambdakb/kicad-lkbd) libraries.
 
-You can preview the project files using [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Flambdakb%2Ftrackball-lt7dk%2Fblob%2Fmain%2Fpcb%2Flk23m-pcb.kicad_pro) directly in your browser and download the latest fabrication files for JLCPCB from the [latest release](https://github.com/lambdakb/keyboard-lk23m/releases/latest/).
+You can preview the project files using [KiCanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Flambdakb%2Ftrackball-lt7dk%2Fblob%2Fmain%2Fpcb%2Flt7dk-pcb.kicad_pro) directly in your browser and download the latest fabrication files for JLCPCB from the [latest release](https://github.com/lambdakb/trackball-lt7dk/releases/latest/).
 
 The exported schematic is also available under [`output/schematics`](output/schematics/).
 
 ## Firmware
 
 Firmware has been built using the [`vial` fork](https://github.com/vial-kb/vial-qmk) of [QMK](https://qmk.fm).
-
-## License
-
-This design is licensed under the [CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S-2.0)](https://opensource.org/license/cern-ohl-s).
-
-You are free to use, share, and modify the design for any purpose, provided that:
-
-- **Attribution**: Appropriate credit is given, a link to the license is provided, and any changes are indicated.
-- **Reciprocity**: Any contributions or modifications must be distributed under the same license.
-
-If you are a retailer or business interested in selling this design or related products, I’d love to discuss it! Please feel free to reach out so we can explore potential arrangements.
 
 ## References
 
@@ -55,3 +44,14 @@ If you are a retailer or business interested in selling this design or related p
 - [asav.dev PMW3360 Module](https://asav.dev/pmw3360/)
 - [SideraKB PMW3360 PCB](https://github.com/siderakb/pmw3360-pcb)
 - [protieusz Omega-Petit](https://github.com/protieusz/Omega-Petit)
+
+## License
+
+This design is licensed under the [CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S-2.0)](https://opensource.org/license/cern-ohl-s).
+
+You are free to use, modify, and distribute this design for any purpose, provided that:
+
+- **Attribution**: Appropriate credit is given, a link to the license is provided, and any modifications are clearly indicated.
+- **Reciprocity**: Any derivative works must be released under the same license.
+
+If you are a retailer or business interested in producing or selling this design or related products, I’d love to discuss it! Please feel free to reach out so we can explore potential arrangements.
