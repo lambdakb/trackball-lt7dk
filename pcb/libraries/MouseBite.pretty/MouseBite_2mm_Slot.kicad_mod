@@ -63,7 +63,7 @@
 			)
 		)
 	)
-	(attr through_hole board_only)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
 	(fp_arc
 		(start -2 -1)
 		(mid -1 0)
