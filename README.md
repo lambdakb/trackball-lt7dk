@@ -22,9 +22,58 @@ You can preview the project files using [KiCanvas](https://kicanvas.org/?github=
 
 The exported schematic is also available under [`output/schematics`](output/schematics/).
 
+## BOM
+
+| Part                          | Ref.                                                     | Quantity | Optional | Remarks                                                                                                                                                          |
+| ----------------------------- | -------------------------------------------------------- | :------: | :------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PCB                           | [LT7DK PCB](README.md#pcb)                               |    1     |    ❌    | See [PCB](README.md#pcb) section on how to order it.                                                                                                             |
+| Pro Micro Controller          | [Arduino Pro Micro 5V], [Adafruit KB2040] or [nice!nano] |    1     |    ❌    | Supports various Pro Micro style controller (including RP2040 based ones) as well as the nice!nano for wireless builds. [^wireless]                              |
+| MCU Socket                    | [DIP-24 Round Socket (Wide, 15.24 mm)]                   |    1     |    ✅    | Recommended to socket the controller, can be omitted if soldered directly. Compatibles pins are required such as dismantled [LED strip male adapters].           |
+| Reset Push Button             | [DIP 2pin Momentary Push Button (6 × 3.5 mm)]            |    1     |    ✅    | Used as a reset switch, can be omitted if you flash the controller before installing it or if the controller can be put in bootloader mode from any other means. |
+| Micro Switches                | [D2FC-F-7N Micro Switch] or compatible                   |   4-7    |    ❌    | Micro switches for mouse buttons, you do not have to populate all of them depending on how you intend to use the PCB.                                            |
+| PMW3360 Optical Sensor & Lens | [PMW3360DM-T2QU + LM19-LSI]                              |    1     |    ❌    | Optical mouse sensor and lens used to detect trackball movement.                                                                                                 |
+| 1.8V DO                       | [TPS76318 Fixed 1.8V LDO (SOT-23-5)]                     |    1     |    ❌    | Power regulator for optical sensor.                                                                                                                              |
+| 1uF Capacitor                 | [0805 SMD Ceramic Capacitor]                             |    1     |    ❌    | Required by the optical sensor LDO.                                                                                                                              |
+| 4.7uF Capacitors              | [0805 SMD Ceramic Capacitor]                             |    2     |    ❌    | Power filtering capacitor for optical sensor and required LDO.                                                                                                   |
+| 100nF Capacitors              | [0805 SMD Ceramic Capacitor]                             |   1-2    |    ❌    | One if required for the power filtering of the optical sensor, the second one is only required if installing the NeoPixel RGB LED.                               |
+| 10K Ω Resistor                | [0805 SMD Resistor]                                      |    1     |    ❌    | Required by the optical sensor.                                                                                                                                  |
+| 39 Ω Resistor                 | [0805 SMD Resistor]                                      |    1     |    ❌    | Required by the optical sensor.                                                                                                                                  |
+| 0.91" OLED Display            | [SSD1306 0.91" 128X32 OLED I²C Display Module]           |   0-1    |    ✅    | Optional, not recommended for wireless builds. [^wireless]                                                                                                       |
+| NeoPixel RGB LED              | [WS2812B 5050 SMD RGB LED] or [SK6812 5050 SMD RGBW LED] |   0-1    |    ✅    | Optional, MUST NOT be placed on wireless builds as 5V output is not provided on the RAW pin by the controller. [^wireless]                                       |
+| Power Slide Switch            | [PCM12SMTR] or [MSK-12C02]                               |    1     |    ✅    | Only required for battery powered wireless builds. [^wireless]                                                                                                   |
+| Battery Connector             | [JST-PH 2pin right-angle Male Connector]                 |    1     |    ✅    | Only needed for battery powered wireless builds if the battery is not soldered directly to the board (recommended). [^wireless]                                  |
+
+[Arduino Pro Micro 5V]: https://www.sparkfun.com/pro-micro-5v-16mhz.html
+[Adafruit KB2040]: https://www.adafruit.com/product/5302
+[nice!nano]: https://nicekeyboards.com/nice-nano/
+[DIP-24 Round Socket (Wide, 15.24 mm)]: https://www.aliexpress.com/item/1005005770166098.html
+[LED strip male adapters]: (https://www.aliexpress.com/item/1005005742644313.html)
+[DIP 2pin Momentary Push Button (6 × 3.5 mm)]: https://www.aliexpress.com/item/1005001849576755.html
+[D2FC-F-7N Micro Switch]: https://www.aliexpress.com/item/1005005018374123.html
+[PMW3360DM-T2QU + LM19-LSI]: https://www.aliexpress.com/item/4000904265601.html?
+[TPS76318 Fixed 1.8V LDO (SOT-23-5)]: https://www.aliexpress.com/item/1005007852956393.html
+[0805 SMD Ceramic Capacitor]: https://www.aliexpress.com/item/32812155708.html
+[0805 SMD Resistor]: https://www.aliexpress.com/item/32847143167.html
+[WS2812B 5050 SMD RGB LED]: https://www.aliexpress.com/item/4001345875756.html
+[SK6812 5050 SMD RGBW LED]: https://www.aliexpress.com/item/32666691387.html
+[SSD1306 0.91" 128X32 OLED I²C Display Module]: https://www.aliexpress.com/item/32777216785.html
+[PCM12SMTR]: https://www.digikey.com/en/products/detail/c-k/PCM12SMTR/1640112
+[MSK-12C02]: https://www.aliexpress.com/item/4000685483225.html
+[JST-PH 2pin right-angle Male Connector]: https://www.aliexpress.com/item/1005004955655144.html
+
+[^wireless]: See [Wireless Support](README.md#wireless-support) for more details.
+
 ## Firmware
 
 Firmware has been built using the [`vial` fork](https://github.com/vial-kb/vial-qmk) of [QMK](https://qmk.fm).
+
+## Wireless Support
+
+To add wireless support to this keyboard, you will need a controller that provides power input and a charging circuit between the top RAW and GND such as the `nice!nano`.
+
+The PCB itself provides a way to attach a JST-PH connector as well as a slide switch for power management. This slide switch must be set to ON for the charging circuit to work.
+
+This hasn't been extensively tested yet and should be considered experimental (no wireless firmware will be provided for now). The feature was added to the PCB as way for us to prototype a potential wireless keyboard.
 
 ## References
 
