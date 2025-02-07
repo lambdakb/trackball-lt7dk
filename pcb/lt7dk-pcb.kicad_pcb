@@ -15215,6 +15215,19 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "(c) 2025 - LambdaKB.dev"
+		(at 71 122 0)
+		(layer "B.SilkS")
+		(uuid "0bdbd2db-d4c5-4100-a4c1-3ddea2d211c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "SDO"
 		(at 69.7404 81.2312 0)
 		(layer "B.SilkS")
@@ -15224,6 +15237,18 @@
 				(size 0.6 0.6)
 				(thickness 0.12)
 				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "Source:\ngithub.com/lambdakb/trackball-lt7dk"
+		(at 71 114 0)
+		(layer "B.SilkS")
+		(uuid "1518ca50-3392-4a6f-bc99-8e346ac86ef2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
 			)
 			(justify mirror)
 		)
@@ -15291,6 +15316,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "PMW3360 DevKit"
+		(at 71 71.4 0)
+		(layer "B.SilkS")
+		(uuid "7cfcd10e-4add-4d78-9bcc-7c48795ecaa1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "SDI"
 		(at 67.2004 81.2312 0)
 		(layer "B.SilkS")
@@ -15338,6 +15376,19 @@
 			(font
 				(size 0.6 0.6)
 				(thickness 0.12)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "LT7DK"
+		(at 71 69.6 0)
+		(layer "B.SilkS")
+		(uuid "99337707-c455-4566-9453-240565c189f3")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.24)
 				(bold yes)
 			)
 			(justify mirror)
@@ -15451,6 +15502,17 @@
 				(thickness 0.15)
 			)
 			(justify left top)
+		)
+	)
+	(gr_text "PMW3360 DevKit"
+		(at 71 113.2 0)
+		(layer "F.SilkS")
+		(uuid "bf2cef23-e607-4723-91c8-cfa974542365")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "LT7DK"
