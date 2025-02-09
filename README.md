@@ -66,7 +66,7 @@ Serial numbers are based on the current date using the `YYMM01` format for its i
 
 | Part                          | Ref.                                                          | Quantity | Optional | Remarks                                                                                                                                                          |
 | ----------------------------- | ------------------------------------------------------------- | :------: | :------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PCB                           | [LT7DK PCB](README.md#pcb)                                    |    1     |    ❌    | See [PCB](README.md#pcb) section on how to order it.                                                                                                             |
+| PCB                           | [LT7DK PCB](./README.md#pcb)                                  |    1     |    ❌    | See [PCB](./README.md#pcb) section on how to order it.                                                                                                           |
 | Pro Micro Controller          | [Arduino Pro Micro 5V], [Adafruit KB2040] or [nice!nano]      |    1     |    ❌    | Supports various Pro Micro style controller (including RP2040 based ones) as well as the nice!nano for wireless builds. [^wireless]                              |
 | MCU Socket                    | [DIP-24 Round Socket (Wide, 15.24 mm)]                        |    1     |    ✅    | Recommended to socket the controller, can be omitted if soldered directly. Compatibles pins are required such as dismantled [LED strip male adapters].           |
 | Reset Push Button             | [DIP 2pin Momentary Push Button (6 × 3.5 mm)]                 |    1     |    ✅    | Used as a reset switch, can be omitted if you flash the controller before installing it or if the controller can be put in bootloader mode from any other means. |
@@ -104,7 +104,7 @@ Serial numbers are based on the current date using the `YYMM01` format for its i
 [603449 (1100 mAh)]: https://amzn.eu/d/e3uVbqB
 [503450 (1000 mAh)]: https://aliexpress.com/item/1005003198563309.html
 
-[^wireless]: See [Wireless Support](README.md#wireless-support) for more details.
+[^wireless]: See [Wireless Support](./README.md#wireless-support) for more details.
 
 ## Firmware
 
